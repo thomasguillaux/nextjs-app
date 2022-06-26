@@ -8,9 +8,7 @@ import { NextPageWithLayout } from './page';
 const Home: NextPageWithLayout = () => {
   return (
     <section className={styles.main}>
-      <h1 className={styles.title}>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+      <h1 className={styles.title}>Welcome to my first app</h1>
       <CatCard {...mockCatCardProps.base} />
     </section>
   );
