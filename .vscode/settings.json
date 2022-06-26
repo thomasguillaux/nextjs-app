@@ -1,5 +1,6 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "css.customData": [".vscode/css_custom_data.json"],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,

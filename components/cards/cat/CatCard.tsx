@@ -11,6 +11,7 @@ export interface ICatCard {
 
 const CatCard: React.FC<ICatCard> = ({ tag, title, body, author, time }) => {
   const srcAvatar = `https://i.pravatar.cc/40?img=3`;
+
   const srcCatPic = `/cat.jpg`;
   return (
     <div className={styles.container}>
